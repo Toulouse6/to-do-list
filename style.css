@@ -1,0 +1,291 @@
+html,
+body {
+    font-family: 'casino-sub', sans-serif;
+    background-image: url("assets/photos/background\ vintage\ green.png");
+    background-size: cover;
+    border: 2px solid #e5e6e5;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Titles */
+
+h1 {
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    letter-spacing: 3px;
+    font-family: 'casino', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #b19b46;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* Form Container */
+
+.col-md-4 {
+    width: 450px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-image: url("assets/photos/Gold\ 3.png");
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #d4d5d4;
+    width: 100%;
+    height: 120px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-image: url("assets/photos/lighter\ input\ background.png");
+    background-size: cover;
+    color: #071716;
+}
+
+::placeholder {
+    color: #071716;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #d4d5d4;
+    margin-top: 15px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-image: url("assets/photos/lighter\ input\ background.png");
+    background-size: cover;
+    color: #071716;
+}
+
+.btn-form {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid white;
+    box-shadow: 5px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+
+.btn-form:hover {
+    margin-top: 10px;
+    background-color: rgba(177, 155, 70, 0.7);
+    transition: 0.6s;
+    color: white;
+    border: 1px solid white;
+}
+
+#clear {
+    margin-bottom: 25px;
+}
+
+span {
+    color: white;
+    line-height: 3;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+/* Notes container */
+
+#container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 20vh;
+}
+
+/* Note cards */
+
+.noteDiv {
+    width: 250px;
+    height: 300px;
+    margin-left: 45px;
+    padding-top: 70px;
+    padding-right: 40px;
+    display: inline-block;
+    background-image: url("assets/photos/GoldenCardNote-leftClean.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 45px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Notes' inner frame */
+
+.noteDiv>div:first-child {
+    font-size: 12px;
+    color: #071716;
+    padding-left: 20px;
+    padding-right: 32px;
+    margin-top: -12px;
+    text-align: left;
+    width: 220px;
+    overflow: auto;
+    height: 80%;
+    margin-bottom: 10px;
+}
+
+/* Date & Time stamp */
+
+.dateTime {
+    font-size: 10px;
+    line-height: 1.3;
+    text-align: left;
+    padding-top: 6px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+/* Close icon */
+
+.noteDiv:hover .bi-check-circle {
+    display: block;
+    color: #b19b46;
+}
+
+.bi-check-circle {
+    display: none;
+    position: absolute;
+    top: -7px;
+    left: 0px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Footer */
+
+h3 {
+    font-size: 13px;
+    color: #071716;
+}
+
+.myFooter {
+    border-top: 4px solid #b19b46;
+    min-height: 150px;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("assets/photos/lighter input background.png");
+    /* Fixed the URL */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Effects */
+
+@keyframes fadeInOnLoad {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeInLoad {
+    animation: fadeInOnLoad 1s ease-in;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease-in;
+}
+
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.fadeOut {
+    animation: fadeOut 1s ease-out;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'casino';
+    src: url(assets/fonts/RoyalExquisite.otf);
+}
+
+@font-face {
+    font-family: 'casino-sub';
+    src: url(assets/fonts/Classica-Book.otf);
+}
+
+/* Responsive view: */
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 50px;
+        padding: 50px 15px 0 15px;
+
+    }
+
+    h2 {
+        font-size: 16px;
+        line-height: 1.6;
+        padding: 0 15px 0 15px;
+    }
+
+    /* Responsive form container */
+
+    .col-md-4 {
+        width: 85%;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        margin: auto;
+        background-color: transparent;
+    }
+}
