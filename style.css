@@ -190,7 +190,7 @@ h3 {
 
 .myFooter {
     border-top: 4px solid #b19b46;
-    min-height: 280px;
+    min-height: 30vh;
     padding: 20px;
     margin: 0;
     display: flex;
