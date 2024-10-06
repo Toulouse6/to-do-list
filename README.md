@@ -1,4 +1,4 @@
-# To-Do List App
+# Lucky Note Deck
 
 A simple and stylish to-do list application that uses JavaScript, HTML, and CSS to help you manage your tasks efficiently, 
 saving your tasks directly into local storage.
