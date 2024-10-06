@@ -1,6 +1,6 @@
 html, body {
     font-family: 'casino-sub', sans-serif;
-    background-image: url("assets/photos/background\\ vintage\\ green.png");
+    background-image: url("/lucky-note-deck/assets/photos/background\\ vintage\\ green.png");
     background-size: cover;
     border: 2px solid #e5e6e5;
     background-position: top center;
@@ -45,7 +45,7 @@ h2 {
 form {
     display: flex;
     justify-content: center;
-    background-image: url("assets/photos/Gold\ 3.png");
+    background-image: url("/lucky-note-deck/assets/photos/Gold\ 3.png");
     background-position: bottom center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ textarea {
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 20px;
-    background-image: url("assets/photos/lighter\ input\ background.png");
+    background-image: url("/lucky-note-deck/assets/photos/lighter\ input\ background.png");
     background-size: cover;
     color: #071716;
 }
@@ -80,7 +80,7 @@ input {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
-    background-image: url("assets/photos/lighter\ input\ background.png");
+    background-image: url("/lucky-note-deck/assets/photos/lighter\ input\ background.png");
     background-size: cover;
     color: #071716;
 }
@@ -135,7 +135,7 @@ span {
     padding-top: 70px;
     padding-right: 40px;
     display: inline-block;
-    background-image: url("assets/photos/GoldenCardNote-leftClean.png");
+    background-image: url("/lucky-note-deck/assets/photos/GoldenCardNote-leftClean.png");
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 45px;
@@ -201,7 +201,7 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url("assets/photos/lighter input background.png");
+    background-image: url("/lucky-note-deck/assets/photos/lighter input background.png");
     background-size: cover;
     background-position: center;
     width: 100%; 
@@ -260,12 +260,12 @@ h3 {
 
 @font-face {
     font-family: 'casino';
-    src: url(assets/fonts/RoyalExquisite.otf);
+    src: url("/lucky-note-deck/assets/fonts/RoyalExquisite.otf");
 }
 
 @font-face {
     font-family: 'casino-sub';
-    src: url(assets/fonts/Classica-Book.otf);
+    src: url("/lucky-note-deck/assets/fonts/Classica-Book.otf");
 }
 
 /* Responsive view: */
