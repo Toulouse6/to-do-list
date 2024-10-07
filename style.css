@@ -6,9 +6,11 @@ html, body {
     background-repeat: no-repeat;
     min-height: 100vh;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     letter-spacing: 1px;
+    overflow: hidden;
 }
 
 .main-content {
