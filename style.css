@@ -200,7 +200,7 @@ h3 {
     padding: 20px;
     margin: 0;
     display: flex;
-    align-items: top;
+    align-items: center;
     justify-content: center;
     text-align: center;
     background-image: url("/lucky-note-deck/assets/photos/lighter-input-background.png");
