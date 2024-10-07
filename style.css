@@ -124,11 +124,9 @@ span {
 /* Note cards */
 
 .noteDiv {
-    width: 250px;
     height: 300px;
-    margin: 10px; 
+    margin: 0; 
     padding-top: 70px;
-    padding-right: 40px;
     display: inline-block;
     background-image: url("/lucky-note-deck/assets/photos/GoldenCardNote-leftClean.png");
     background-size: contain;
