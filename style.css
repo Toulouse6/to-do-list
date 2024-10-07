@@ -193,7 +193,7 @@ h3 {
 
 .myFooter {
     border-top: 4px solid #b19b46;
-    min-height: 30vh;
+    min-height: fit-content;
     padding: 20px;
     margin: 0;
     display: flex;
