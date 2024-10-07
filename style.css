@@ -283,7 +283,10 @@ h3 {
         padding: 0 15px 0 15px;
     }
 
-    /* Responsive form container */
+    #container {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+    }
 
     .col-md-4 {
         width: 85%;
