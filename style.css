@@ -2,7 +2,6 @@ html, body {
     font-family: 'casino-sub', sans-serif;
     background: green;
     background-size: cover;
-    border: 2px solid #e5e6e5;
     background-position: top center;
     background-repeat: no-repeat;
     min-height: 100vh;
