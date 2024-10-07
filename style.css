@@ -7,7 +7,7 @@ html, body {
     display: flex;
     flex-direction: column;
     letter-spacing: 1px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .main-content {
