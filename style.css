@@ -1,6 +1,6 @@
 html, body {
     font-family: 'casino-sub', sans-serif;
-    background-image: url("/assets/photos/background-green.png");
+    background: green;
     background-size: cover;
     border: 2px solid #e5e6e5;
     background-position: top center;
@@ -10,7 +10,6 @@ html, body {
     display: flex;
     flex-direction: column;
     letter-spacing: 1px;
-        border: 2px solid red;
 }
 
 .main-content {
